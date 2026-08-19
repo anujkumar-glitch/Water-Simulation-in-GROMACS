@@ -1,2 +1,5 @@
 # Water-Simulation-in-GROMACS
-Simulating Water Box in GROMACS 
+
+ gmx_mpi solvate -cs spc216.gro -box 5 5 5 -o water_box.gro
+
+ 
